@@ -1,4 +1,4 @@
-name: Deploy Treinazap - S3
+name: TESTE-Deploy Treinazap - S3
 
 on:
   workflow_dispatch:
