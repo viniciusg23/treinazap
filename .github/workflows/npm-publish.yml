@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: 12.21.0
       - name: INSTALL E BUILD
-      - run: node --version
+        run: node --version
       
       
       
