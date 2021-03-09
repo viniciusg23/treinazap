@@ -4,9 +4,9 @@
 name: TESTE-treinazap.yml
 
 on:
-  release:
-    types: [commit]
-
+  push:
+    branches:
+      - master
 jobs:
   build:
     runs-on: ubuntu-latest
