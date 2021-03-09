@@ -1,8 +1,9 @@
 name: Deploy Treinazzapp-prd - para S3
 
 on:
-  release:
-    types: [commit]
+  push:
+     branches:
+        -master
 
 jobs:
   build:
